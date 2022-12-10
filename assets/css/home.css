@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&display=swap');
+
+body {
+    
+    background-color: black;
+    font-family: 'Inter', sans-serif !important;
+    color: white;
+}
+.home-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.05) 80%, rgba(0, 0, 0, 1)),url("../img/HomeScreenImg.png") no-repeat right center;
+}
+nav{
+    min-height: 50px;
+}
+nav .navbar-toggler,.navbar-toggler:focus{
+    border: none;
+    box-shadow: none;
+}
+nav li{
+    padding: 0px 10px; 
+}
+a, .home-section i{
+    color: white !important;
+}
+nav .contact-us a,.contact-btn{
+    background-color: white;
+    color:#181818 !important;
+    border-radius: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+.fa-solid{
+   font-size: 30px;
+}
+
+.hero-section{
+    min-height: calc(100vh - 50px);   
+} 
+ h1{
+    font-size: 70px;
+    line-height: 130%;
+    font-weight: 600;
+}
+.hero-section h3{
+    font-size: 24px;
+    line-height: 160%;
+    color: rgba(255, 255, 255, 0.7);
+}
+.hero-section .services-btn{
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 100px;
+    width: 176px;
+    display: inline-block;
+
+}
+.contact-btn{
+    text-decoration: none;
+    font-size: 16px;
+    width: 176px;
+    display: inline-block;
+}
+.lawfirm-section{
+    min-height: 100vh;
+}
+p{
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7) ;
+}
+h2{
+    font-size: 64px;
+    font-weight: 600;
+    
+}
+h5{
+    font-size: 28px;
+    font-weight: 600;
+}
+.lawfirm-section p span{
+    color:#A249FF !important;
+}
+.leadingCrypto-section {
+    min-height: 650px;
+}
+.metrics{
+    height: 850px;
+    background: linear-gradient(rgba(0, 0, 0, 0.05) , rgba(0, 0, 0, 1)), url("../img/metrics.png") no-repeat center center;
+}
+.structuring-section{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.advice h5{
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+}
+.learn-btn{
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    display: block;
+    width: 160px;
+    text-align: center;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0.5rem 0rem;
+    
+}
+.learn-btn i{
+    font-size: 12px;
+    margin-left: 8px;
+}
+.legalRegulation-section h3{
+    font-size: 35px;
+    line-height: 120%;
+}
+.legalRegulation-section span{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.6rem;
+    border-radius: 100px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 150px;
+}
+.legalRegulation-section i{
+    font-size: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 0.7rem 0.8rem;
+    border-radius: 100%;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 40px;
+    
+}
+.licensing {
+    height: 720px;
+    background: #181818 url("../img/licensing.png") no-repeat;
+    background-size: cover;
+}
+.aml{
+    height: 350px;
+    background: #181818 url("../img/aml.png") no-repeat ;
+    background-size: cover;
+}
+.legal{
+    height: 350px;
+    background: #181818 url("../img/legal.png") no-repeat ;
+    background-size: cover;
+}
+.regulatorsg{
+    height: 340px;
+    background: #181818 url("../img/regulatorsg.png") no-repeat;
+    background-size: cover;
+}
+.compliance{
+        height: 340px;
+        background: #181818 url("../img/compliance.png") no-repeat;
+        background-size: cover;
+}
+.disputes{
+        height: 340px;
+            background: #181818 url("../img/disputes.png") no-repeat;
+            background-size: cover;
+}
+.tokens-section{
+    margin-top: 15rem;
+}
+.coins-container{
+    height: 800px;
+    background: linear-gradient(rgba(0, 0, 0, 0)40%, rgba(0, 0, 0, 1)),url("../img/coins.png") no-repeat center bottom;
+    margin-bottom: 3rem;
+}
+.coins-cards{
+    margin-bottom: 10rem;
+}
+.coins-cards .card{
+    background-color: #181818;
+    border-radius: 40px;
+    min-height: 450px;
+    padding: 6% 4%;
+}
+.coins-cards .card .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.coins-cards .card h5{
+    font-size: 45px;
+    padding-bottom: 1rem;
+}
+.coins-cards .card.last-card{
+    min-height: 280px;
+}
+.coins-cards .card.last-card .card-body{
+    flex-direction: row;
+}
+.team-section{
+    margin-bottom: 10rem;
+}
+.team-content .content p{
+    font-size: 16px;
+}
+.team-content .content h5{
+    font-size: 32px;
+}
+.team-content{
+    position: relative;
+}
+.team-content img{
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+.team-content .img-gradient{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0, 0.8));
+    bottom: 0px;
+    left: 0px;
+}
+.team-content .content{
+    position: absolute;
+    bottom: 0px;
+    left: 0px; 
+}
+.fqa-section{
+    margin-bottom: 10rem;
+}
+.fqa-section .tabs-container{
+    overflow-x: auto;
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+.fqa-section .tabs-container::-webkit-scrollbar{
+    width: 0;
+}
+.fqa-section .tabs-container li{
+    min-width: fit-content;
+}
+.fqa-section .tabs-container .tabs-link, .form-btn{
+    background-color: transparent;
+    color:white;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    padding: 0.6rem 2rem;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 100px;
+    margin:5px 3px;
+}
+.fqa-section .tabs-container .active, .form-btn.active{
+    background-color: white;
+    color: #181818 !important;
+    
+}
+.accordion-item{
+    background-color: transparent;
+    border: none;
+}
+.accordion-button::after,.accordion-button:not(.collapsed)::after{
+  display: none;
+}
+
+
+.accordion-header button.accordion-button,.accordion-button:not(.collapsed){
+    font-size: 32px;
+    font-weight: 600;
+    box-shadow: none;
+    background-color: transparent;
+    color: white;
+}
+.accordion-body{
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 0px;
+    padding-right: 4rem;
+}
+.accordion-button .fa-plus{
+    transition: transform 0.25s;
+    font-weight: 300;
+    font-size: 35px;
+}
+.accordion-button:not(.collapsed) .fa-plus{
+    transform: rotate(45deg);
+}
+.news-section .row .learn-btn{
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-align: end;
+    padding: 0;
+    width: fit-content;
+}
+.news-section p{
+    font-size: 16px;
+    margin: 0;
+    font-weight: 400;
+    
+}
+.news-section .row .learn-btn i{
+    font-size: 15px;
+}
+.imgNews-container{
+    height: 285px;
+    margin-bottom: 1rem;   
+}
+.imgNews-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+.news-section h4{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+}
+.news-section{
+    margin-bottom: 10rem;
+}
+.contact-section{
+    min-height: 865px;
+    background:  linear-gradient(rgba(0, 0, 0, 0.8) 0%,rgba(0, 0, 0, 0) 100%),url(../img/contactUs.png) center center;
+}
+
+.form-container{
+    background-color: black;
+    min-height: 600px;
+    border-radius: 40px;
+    box-shadow: 0px 15px 34px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-btn{
+    width: 48%;
+    padding: 0.4rem 0rem;
+    margin-bottom: 2rem;
+}
+.form-container .position-relative{
+    margin-bottom: 1.5rem;
+}
+form .form-control,form .form-control:focus{
+    background-color: transparent;
+    border-radius: 0;
+    margin: 1rem 0;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    font-weight: 500;
+    padding: 0 0 5px 0;
+    line-height: 100%;
+    box-shadow: none;
+    resize: none;
+}
+
+form .form-control::placeholder{
+    font-weight: 500;
+}
+.form-container .submit-btn{
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.4);;
+    display: inline-block;
+    font-weight: 600;
+    padding: 0.6rem 2rem;
+    border-radius: 100px;
+    border: none;
+}
+.submit-btn.active {
+    background: white;
+    color: black;
+}
+.txtArea::-webkit-scrollbar {
+    width: 0;
+}
+textarea.form-control {
+    height: 5px;
+        min-height: calc(1.1em + 0.5rem + 2px);
+    line-height: 1.2 !important;
+}
+.form-container{
+    position: relative;
+}
+.form-container .successMessage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.successMessage img{
+    width: 25%;
+}
+.successMessage h4{
+    font-size: 48px;
+}
+footer ul{
+    margin:0;
+    list-style-type: none;
+    
+}
+footer .row{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+footer p{
+    font-size: 14px;
+}
+@media (max-width: 768px){
+
+    h1{
+        font-size: 64px !important;
+    }
+    .home-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.5) 80%, rgba(0, 0, 0, 1)), url("../img/HomeScreenImg.png") no-repeat right center;
+    }
+
+    ul.navbar-nav{
+    min-height: calc(100vh - 50px);    
+    }
+    ul.navbar-nav li.contact-us{
+       margin-top: 3rem;
+       padding-top: 3rem;
+       padding-bottom: 0.5rem;
+    }
+    nav #toggleMenu ul li:not(:last-child) {
+        font-size: 24px;
+        margin: 10px 0px;
+    }
+        .legalRegulation-section h3{
+            font-size: 28px;
+        }
+    .licensing{
+        height: 340px;
+    }
+    .aml,.legal{
+        height: 482px;
+    }
+    .coins-cards .card{
+        min-height: 400px;
+    }
+        .coins-cards .card.last-card .card-body {
+            flex-direction: column;
+        }
+        .fqa-section .tabs-container{
+            flex-wrap: nowrap;
+        }
+}
+
+
+@media (max-width: 576px) {
+    
+    h1 {
+        font-size: 48px !important;
+    }
+    p{
+        font-size: 16px !important;
+    }
+    
+    .leadingCrypto-section{
+        margin-bottom: 10rem ;
+    }
+    .metrics{
+        height: 250px;
+        background-size: cover;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h5{
+        font-size: 28px;
+    }
+    .mobile-container{
+        height: 400px;
+    }
+    .coins-cards .card h5 {
+        font-size: 32px;
+    }
+    .coins-cards .card{
+        min-height: 350px;
+    }
+    .team-content img{
+        height: 350px;
+    }
+    .team-content .img-gradient{
+        display: none;
+    }
+    .team-content .content{
+        position: static;
+    }
+
+}
